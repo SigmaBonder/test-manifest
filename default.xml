@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="sigma" fetch="https://github.com/SigmaBonder/" revision="refs/tags/tag01"/>
+  <project name="test-project-a" path="a" remote="sigma" revision="d26c805e0482e4a683671a902e2625fe8058cc6f" upstream="refs/tags/tag01" dest-branch="refs/tags/tag01"/>
+  <project name="test-project-b" path="b" remote="sigma" revision="9eeae534b3d38f7c481ab4b406076a8bc5101ba3" upstream="refs/tags/tag01" dest-branch="refs/tags/tag01"/>
+</manifest>
