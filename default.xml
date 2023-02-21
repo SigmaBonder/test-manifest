@@ -3,4 +3,5 @@
   <remote name="sigma" fetch="https://github.com/SigmaBonder/" revision="refs/tags/tag02"/>
   <project name="test-project-a" path="a" remote="sigma" upstream="refs/tags/tag02" dest-branch="refs/tags/tag02"/>
   <project name="test-project-b" path="b" remote="sigma" upstream="refs/tags/tag02" dest-branch="refs/tags/tag02"/>
+  <project name="test-project-c" path="c" remote="sigma" revision="main"/>
 </manifest>
