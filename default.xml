@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="sigma" fetch="https://github.com/SigmaBonder/" revision="refs/heads/master" />
+  <remote name="sigma" fetch="https://github.com/SigmaBonder/" revision="refs/tags/tag01" />
   <remote name="sigma-two" fetch="https://github.com/SigmaBonderTwo/" revision="refs/heads/master" />
   <default remote="sigma" />
   
-  <project name="test-bread" path="bread" />
-  <project name="test-cake" path="cake" />
-  <project name="test-blender" path="blender" remote="sigma-two" />
-  <project name="test-cooker" path="cooker" remote="sigma-two" />
+  <project name="test-bread" path="bread" upstream="refs/tags/tag01" dest-branch="refs/tags/tag01" />
+  <project name="test-cake" path="cake" upstream="refs/tags/tag01" dest-branch="refs/tags/tag01" />
+  <project name="test-blender" path="blender" remote="sigma-two" revision="2f16b71285ae1b3df268a0c21e0f06302efbef22" />
+  <project name="test-cooker" path="cooker" remote="sigma-two" revision="e5407dca59d99f6d7feb99b1ded166825949abf2" />
 </manifest>
