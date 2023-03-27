@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="sigma" fetch="https://github.com/SigmaBonder/" revision="refs/heads/master" />
+  <remote name="sigma-two" fetch="https://github.com/SigmaBonderTwo/" revision="refs/heads/master" />
+  <default remote="sigma" />
+  
+  <project name="test-bread" path="bread" />
+  <project name="test-cake" path="cake" />
+  <project name="test-blender" path="blender" remote="sigma-two" />
+  <project name="test-cooker" path="cooker" remote="sigma-two" />
+</manifest>
